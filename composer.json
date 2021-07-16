@@ -1,0 +1,30 @@
+{
+    "name": "maenxi/laravel-core",
+    "description": "对laravel的核心代码块的理解与实现",
+    "keywords": ["laravel", "Illuminate"],
+    "require": {
+        "maenxi/plugins": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maenxi\\": "src/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "mc",
+            "email": "machuang2264@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    }
+}
